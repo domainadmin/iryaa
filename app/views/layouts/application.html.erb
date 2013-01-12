@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Iryaa Consulting Services Private Limited</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="container-narrow">
+		<ul class="nav nav-pills pull-right nav-ch">
+			<li>about</li>
+			<li>deliverables</li>
+			<li>industries</li>
+			<li>blog</li>
+			<li>contact us</li>
+		</ul>
+		<div class="row">
+			<div class="span4 logo">
+				<%= image_tag("common/logo.png") %>
+			</div>
+		</div>
+		<div class="row">	
+			<%= yield %>
+		</div>
+		<div class="row">
+			<div class="span4">
+				<h4>Get in touch</h4>
+				<p>We would love to work with you. Contact us</p>
+			</div>
+			<div class="span4">
+				<p class="foot-ch">Copyright 2012</p>
+			</div>
+		</div>
+</div>
+</body>
+</html>

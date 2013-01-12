@@ -1,0 +1,57 @@
+@import "twitter/bootstrap/bootstrap";
+
+*{margin:0; padding:0}
+body{background:url(common/bg_strp.png) 0 0 repeat-x #6f94bd;  font-family: 'Yanone Kaffeesatz', sans-serif; font-weight:300; color:#000;}
+.container-narrow{margin:0 auto; max-width:800px;}
+.nav-ch{background-color:#006582; width:425px; font-size:17px; height:25px; padding-top:5px;}
+ul.nav-ch > li{color:#fff; padding-left:30px;}
+
+.logo{padding-top:85px;}
+
+.center-ch{padding-top:45px;}
+.ori-ch{padding-left:45px;}
+.con-ch{font-size:35px; line-height:40px; width:425px;}
+.center-ch > .span5 > p{padding-top:25px;}
+
+.bottom-ch{padding-top:75px;}
+.bottom-ch > .span3{width:220px;}
+.cont-ch1{padding-left:25px; background-color:#006582;}
+.cont-ch2{padding-left:25px; background-color:#d52388;}
+.cont-ch3{padding-left:25px; background-color:#6d6e70;}
+.bottom-ch > .span3 > h2{line-height:25px; font-weight:400;}
+.bottom-ch > .span3 > p{line-height:15px;}
+
+hr{margin-top:45px; border: 0; height: 1px; background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); }
+
+.foot-ch{float:right; padding-top:15px;}
+@import "twitter/bootstrap/responsive";
+
+// Set the correct sprite paths
+@iconSpritePath: asset-path("twitter/bootstrap/glyphicons-halflings");
+@iconWhiteSpritePath: asset-path("twitter/bootstrap/glyphicons-halflings-white");
+
+// Set the Font Awesome (Font Awesome is default. You can disable by commenting below lines)
+// Note: If you use asset_path() here, your compiled bootstrap_and_overrides.css will not
+//       have the proper paths. So for now we use the absolute path.
+@fontAwesomeEotPath: asset-path("fontawesome-webfont.eot");
+@fontAwesomeEotPath_iefix: asset-path("fontawesome-webfont.eot#iefix");
+@fontAwesomeWoffPath: asset-path("fontawesome-webfont.woff");
+@fontAwesomeTtfPath: asset-path("fontawesome-webfont.ttf");
+@fontAwesomeSvgPath: asset-path("fontawesome-webfont.svg");
+
+// Font Awesome
+@import "fontawesome";
+
+// Glyphicons
+//@import "twitter/bootstrap/sprites.less";
+
+// Your custom LESS stylesheets goes here
+//
+// Since bootstrap was imported above you have access to its mixins which
+// you may use and inherit here
+//
+// If you'd like to override bootstrap's own variables, you can do so here as well
+// See http://twitter.github.com/bootstrap/customize.html#variables for their names and documentation
+//
+// Example:
+// @linkColor: #ff0000;
